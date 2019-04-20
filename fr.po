@@ -4186,12 +4186,12 @@ msgstr "Version"
 #: src/api/logic/minecraft/SimpleModList.cpp:288
 msgctxt "SimpleModList|"
 msgid "Last changed"
-msgstr ""
+msgstr "Dernier changement"
 
 #: src/api/logic/minecraft/SimpleModList.cpp:297
 msgctxt "SimpleModList|"
 msgid "Is the mod enabled?"
-msgstr ""
+msgstr "Le mode semble être désactivé"
 
 #: src/api/logic/minecraft/SimpleModList.cpp:299
 msgctxt "SimpleModList|"
@@ -4228,7 +4228,7 @@ msgstr "Envoyer"
 #: src/application/dialogs/SkinUploadDialog.ui:20
 msgctxt "SkinUploadDialog|"
 msgid "Skin File"
-msgstr ""
+msgstr "Fichier du skin"
 
 #: src/application/dialogs/SkinUploadDialog.ui:51
 #, fuzzy
@@ -4240,12 +4240,12 @@ msgstr "Nom du joueur"
 #, fuzzy
 msgctxt "SkinUploadDialog|"
 msgid "Steve Model"
-msgstr "Model de Steve"
+msgstr "Modèle normal"
 
 #: src/application/dialogs/SkinUploadDialog.ui:67
 msgctxt "SkinUploadDialog|"
 msgid "Alex Model"
-msgstr ""
+msgstr "Modèle mince"
 
 #: src/application/dialogs/SkinUploadDialog.cpp:23
 msgctxt "SkinUploadDialog|"
@@ -4255,12 +4255,12 @@ msgstr "Échec de l'authentification !"
 #: src/application/dialogs/SkinUploadDialog.cpp:48
 msgctxt "SkinUploadDialog|"
 msgid "Using remote URLs for setting skins is not implemented yet."
-msgstr ""
+msgstr "L'utilisation d'URL pour changer les skins n'est opas encore implémentée"
 
 #: src/application/dialogs/SkinUploadDialog.cpp:60
 msgctxt "SkinUploadDialog|"
 msgid "You cannot use an invalid URL for uploading skins."
-msgstr ""
+msgstr "Veuillez utiliser une adresse URL valide pour téléverser des skins"
 
 #: src/application/dialogs/SkinUploadDialog.cpp:75
 msgctxt "SkinUploadDialog|"
@@ -4297,7 +4297,7 @@ msgstr ""
 #: src/application/pages/modplatform/TechnicPage.h:40
 msgctxt "TechnicPage|"
 msgid "Technic"
-msgstr ""
+msgstr "Technique"
 
 #: src/application/pages/instance/TexturePackPage.h:11
 msgctxt "TexturePackPage|"
@@ -4323,7 +4323,7 @@ msgstr "Langage"
 #: src/api/logic/translations/TranslationsModel.cpp:370
 msgctxt "TranslationsModel|"
 msgid "Completeness"
-msgstr ""
+msgstr "Exhaustivité"
 
 #: src/api/logic/translations/TranslationsModel.cpp:380
 msgctxt "TranslationsModel|"
@@ -4335,7 +4335,7 @@ msgctxt "TranslationsModel|"
 msgid ""
 "Completeness is the percentage of fully translated strings, not counting "
 "automatically guessed ones."
-msgstr ""
+msgstr "L'exhaustivité est le pourcentage de phrases complètement traduites, non comptantes"
 
 #: src/application/pages/modplatform/TwitchPage.h:40
 msgctxt "TwitchPage|"
@@ -4345,7 +4345,7 @@ msgstr "Twitch"
 #: src/api/logic/launch/steps/Update.cpp:23
 msgctxt "Update|"
 msgid "Task aborted."
-msgstr ""
+msgstr "Chargement annulé"
 
 #: src/api/logic/launch/steps/Update.cpp:52
 #, qt-format
@@ -4839,7 +4839,7 @@ msgstr "Type de version"
 #, fuzzy
 msgctxt "VersionProxyModel|"
 msgid "CPU Architecture"
-msgstr "Architecture du CPU"
+msgstr "Architecture du processeur"
 
 #: src/application/VersionProxyModel.cpp:106
 #, fuzzy
@@ -4916,7 +4916,7 @@ msgstr "Mode de jeu"
 #: src/api/logic/minecraft/WorldList.cpp:215
 msgctxt "WorldList|"
 msgid "Last Played"
-msgstr ""
+msgstr "Dernier monde joué"
 
 #: src/api/logic/minecraft/WorldList.cpp:224
 msgctxt "WorldList|"
@@ -4931,7 +4931,7 @@ msgstr "Mode de jeu du monde."
 #: src/api/logic/minecraft/WorldList.cpp:228
 msgctxt "WorldList|"
 msgid "Date and time the world was last played."
-msgstr ""
+msgstr "Date et heure auxquelles le monde a été dernièrement joué"
 
 #: src/application/pages/instance/WorldListPage.ui:41
 #, fuzzy
@@ -4960,7 +4960,7 @@ msgstr "&Supprimer"
 #: src/application/pages/instance/WorldListPage.ui:82
 msgctxt "WorldListPage|"
 msgid "Copy Seed"
-msgstr ""
+msgstr "Copier la graine"
 
 #: src/application/pages/instance/WorldListPage.ui:102
 #, fuzzy
@@ -4995,19 +4995,20 @@ msgstr ""
 #: src/application/pages/instance/WorldListPage.cpp:203
 msgctxt "WorldListPage|"
 msgid "MCEdit failed to start!"
-msgstr "MCEdit n'a pas pu commencer!"
+msgstr "MCEdit n'a pas pu démarrer !"
 
 #: src/application/pages/instance/WorldListPage.cpp:204
 msgctxt "WorldListPage|"
 msgid ""
 "MCEdit failed to start.\n"
 "It may be necessary to reinstall it."
-msgstr ""
+msgstr "MCEdit a crashé"
+"Il est nécéssaire de le réinstaller"
 
 #: src/application/pages/instance/WorldListPage.cpp:193
 msgctxt "WorldListPage|"
 msgid "No MCEdit found or set up!"
-msgstr ""
+msgstr "Aucun MCEdit trouvé ou parmétré !"
 
 #: src/application/pages/instance/WorldListPage.cpp:194
 msgctxt "WorldListPage|"
@@ -5015,11 +5016,13 @@ msgid ""
 "You do not have MCEdit set up or it was moved.\n"
 "You can set it up in the global settings."
 msgstr ""
+"MCEdit n'a pas été paramétré ou a été déplacé"
+"Vous pouvez le paramétrer dans les réglages généraux"
 
 #: src/application/pages/instance/WorldListPage.cpp:250
 msgctxt "WorldListPage|"
 msgid "Select a Minecraft world zip"
-msgstr ""
+msgstr "Sélectionner un monde Minecraft compressé *.zip"
 
 #: src/application/pages/instance/WorldListPage.cpp:251
 #, fuzzy
@@ -5030,7 +5033,7 @@ msgstr "Archive du monde Minecraft (*.zip *.jar)"
 #: src/application/pages/instance/WorldListPage.cpp:272
 msgctxt "WorldListPage|"
 msgid "Copy World"
-msgstr ""
+msgstr "Copier le monde
 
 #: src/application/pages/instance/WorldListPage.cpp:272
 msgctxt "WorldListPage|"
@@ -5038,6 +5041,8 @@ msgid ""
 "Changing a world while Minecraft is running is potentially unsafe.\n"
 "Do you wish to proceed?"
 msgstr ""
+"Changer de monde pendant que Minecraft est lancé est potentiellement insécurisé"
+"Voulez-vous continuer ?"
 
 #: src/application/pages/instance/WorldListPage.cpp:296
 #: src/application/pages/instance/WorldListPage.cpp:319
